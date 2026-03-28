@@ -8,9 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        playfair: ["var(--font-playfair)"],
+        inter: ["var(--font-inter)"],
+        bebas: ["var(--font-bebas)"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        chapter1: "#0A0E1A",
+        chapter2: "#0D1117",
+        chapter3: "#1A0F00",
+        ctaBg: "#2C1500",
       },
     },
   },
